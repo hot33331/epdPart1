@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvx.TipCalc.Core", "Mvx.TipCalc.Core\Mvx.TipCalc.Core.csproj", "{BDADE7C0-DDF5-4553-899B-A4EA04AB5090}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvx.TipCalc.Droid", "Mvx.TipCalc.Droid\Mvx.TipCalc.Droid.csproj", "{88AF4823-701D-48BC-A331-CC765FE833B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvx.TipCalc.UnitTest", "Mvx.TipCalc.UnitTest\Mvx.TipCalc.UnitTest.csproj", "{FB22201F-A7A2-4DF6-A1BD-4AA015C41977}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDADE7C0-DDF5-4553-899B-A4EA04AB5090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDADE7C0-DDF5-4553-899B-A4EA04AB5090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDADE7C0-DDF5-4553-899B-A4EA04AB5090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDADE7C0-DDF5-4553-899B-A4EA04AB5090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88AF4823-701D-48BC-A331-CC765FE833B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88AF4823-701D-48BC-A331-CC765FE833B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88AF4823-701D-48BC-A331-CC765FE833B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88AF4823-701D-48BC-A331-CC765FE833B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB22201F-A7A2-4DF6-A1BD-4AA015C41977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB22201F-A7A2-4DF6-A1BD-4AA015C41977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB22201F-A7A2-4DF6-A1BD-4AA015C41977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB22201F-A7A2-4DF6-A1BD-4AA015C41977}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
