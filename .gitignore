@@ -6,3 +6,10 @@ TipCalc/Mvx.TipCalc.sln.DotSettings.user
 TipCalc/Mvx.TipCalc.Core/bin
 TipCalc/Mvx.TipCalc.Core/obj
 TipCalc/Mvx.TipCalc.Droid/obj
+TipCalc/Mvx.TipCalc.UiTest/obj
+Todo/.idea
+Todo/.vs
+Todo/Todo.Core/bin
+Todo/Todo.Core/obj
+Todo/Todo.Droid/bin
+Todo/Todo.Droid/obj

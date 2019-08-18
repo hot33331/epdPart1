@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvx.TipCalc.Droid", "Mvx.Ti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvx.TipCalc.UnitTest", "Mvx.TipCalc.UnitTest\Mvx.TipCalc.UnitTest.csproj", "{FB22201F-A7A2-4DF6-A1BD-4AA015C41977}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvx.TipCalc.UiTest", "Mvx.TipCalc.UiTest\Mvx.TipCalc.UiTest.csproj", "{9AF26779-9155-48FB-93C3-06600CC55D46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{FB22201F-A7A2-4DF6-A1BD-4AA015C41977}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB22201F-A7A2-4DF6-A1BD-4AA015C41977}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB22201F-A7A2-4DF6-A1BD-4AA015C41977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF26779-9155-48FB-93C3-06600CC55D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF26779-9155-48FB-93C3-06600CC55D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF26779-9155-48FB-93C3-06600CC55D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF26779-9155-48FB-93C3-06600CC55D46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

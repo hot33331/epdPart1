@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Core", "Todo.Core\Todo.Core.csproj", "{FC2F599A-5B06-4ABC-A45E-3E1492658FB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Todo.Droid", "Todo.Droid\Todo.Droid.csproj", "{5EF3A305-0200-4354-B04C-E45873134621}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC2F599A-5B06-4ABC-A45E-3E1492658FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2F599A-5B06-4ABC-A45E-3E1492658FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2F599A-5B06-4ABC-A45E-3E1492658FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2F599A-5B06-4ABC-A45E-3E1492658FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF3A305-0200-4354-B04C-E45873134621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF3A305-0200-4354-B04C-E45873134621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF3A305-0200-4354-B04C-E45873134621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF3A305-0200-4354-B04C-E45873134621}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
