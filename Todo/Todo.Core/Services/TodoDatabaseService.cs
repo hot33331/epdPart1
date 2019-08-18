@@ -1,16 +1,17 @@
 using System.Collections.Generic;
-using Todo.Core.Model;
+using System.Threading.Tasks;
+using Todo.Core.Models;
 
 namespace Todo.Core.Services
 {
     public class TodoDatabaseService:ITodoService
     {
-        public List<TodoItem> GetTodoItems()
+        public Task<List<TodoItem>> GetTodoItems()
         {
             throw new System.NotImplementedException();
         }
 
-        public TodoItem GetTodoItem(string id)
+        public Task<TodoItem> GetTodoItem(string id)
         {
             throw new System.NotImplementedException();
         }

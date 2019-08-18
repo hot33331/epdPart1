@@ -1,12 +1,13 @@
 using System.Collections.Generic;
-using Todo.Core.Model;
+using System.Threading.Tasks;
+using Todo.Core.Models;
 
 namespace Todo.Core.Services
 {
     public interface ITodoService
     {
-        List<TodoItem> GetTodoItems();
-        TodoItem GetTodoItem(string id);
+        Task<List<TodoItem>> GetTodoItems();
+        Task<TodoItem> GetTodoItem(string id);
         void AddOrUpdateTodoItem(TodoItem item);
         void DeleteTodoItem(TodoItem item);
     }
