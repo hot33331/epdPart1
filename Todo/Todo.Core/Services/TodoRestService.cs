@@ -33,7 +33,7 @@ namespace Todo.Core.Services
 
         public void DeleteTodoItem(TodoItem item)
         {
-            throw new System.NotImplementedException();
+            restService.DeleteTodo(item.Id);
         }
     }
 }
