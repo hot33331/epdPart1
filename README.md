@@ -4,8 +4,13 @@
 * What is Xamarin
 * Xamarin Native
 * Xamarin Forms
+   * https://github.com/xamarin/dev-days-labs
 * MVVM
+   * https://docs.microsoft.com/de-de/xamarin/xamarin-forms/enterprise-application-patterns/mvvm
 * Async / Await
+   * https://github.com/brminnick/AsyncAwaitBestPractices
+   * https://www.youtube.com/watch?v=J0mcYVxJEl0
+   * https://www.youtube.com/watch?v=My2gAv5Vrkk
 
 ### Xamarin App
 * MVVMCross Tutorial TipCalc
