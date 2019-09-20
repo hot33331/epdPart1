@@ -1,5 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvx.TipCalc.Core", "Mvx.TipCalc.Core\Mvx.TipCalc.Core.csproj", "{BDADE7C0-DDF5-4553-899B-A4EA04AB5090}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvx.TipCalc.Droid", "Mvx.TipCalc.Droid\Mvx.TipCalc.Droid.csproj", "{88AF4823-701D-48BC-A331-CC765FE833B9}"

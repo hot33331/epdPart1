@@ -9,8 +9,10 @@ namespace Mvx.TipCalc.UiTest
         public static IApp StartApp(Platform platform)
         {
             if (platform == Platform.Android)
-            {
-                return ConfigureApp.Android.StartApp();
+            {// we are only using release to not having to deactivate shared runtime in debug
+                return ConfigureApp.Android.ApkFile("../../../Mvx.TipCalc.Droid/bin/Release/Mvx.TipCalc.Droid.Mvx.TipCalc.Droid-Signed.apk")
+                    .EnableLocalScreenshots()
+                    .StartApp();
             }
 
             if (platform == Platform.iOS)

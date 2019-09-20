@@ -3,6 +3,7 @@ using Android.OS;
 using MvvmCross.Platforms.Android.Views;
 using Mvx.TipCalc.Core.ViewModels;
 
+
 namespace Mvx.TipCalc.Droid.Views
 {
     [Activity(Label = "Tip Calculator", MainLauncher = true)]
@@ -12,6 +13,7 @@ namespace Mvx.TipCalc.Droid.Views
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.TipView);
+
         }
     }
 }

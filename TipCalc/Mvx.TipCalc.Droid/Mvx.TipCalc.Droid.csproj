@@ -88,7 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Mvx.TipCalc.Core\Mvx.TipCalc.Core.csproj">
-      <Project>{bdade7c0-ddf5-4553-899b-a4ea04ab5090}</Project>
+      <Project>{BDADE7C0-DDF5-4553-899B-A4EA04AB5090}</Project>
       <Name>Mvx.TipCalc.Core</Name>
     </ProjectReference>
   </ItemGroup>

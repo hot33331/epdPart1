@@ -8,7 +8,7 @@ using Xamarin.UITest.Queries;
 namespace Mvx.TipCalc.UiTest
 {
     [TestFixture(Platform.Android)]
-    [TestFixture(Platform.iOS)]
+    //[TestFixture(Platform.iOS)]
     public class AppTests
     {
         IApp app;
@@ -28,8 +28,9 @@ namespace Mvx.TipCalc.UiTest
         [Test]
         public void WelcomeTextIsDisplayed()
         {
-            AppResult[] results = app.WaitForElement(c => c.Marked("Welcome to Xamarin.Forms!"));
-            app.Screenshot("Welcome screen.");
+            AppResult[] results = app.WaitForElement(c => c.Text("SubTotal"));
+            //app.Repl();
+
 
             Assert.IsTrue(results.Any());
         }
